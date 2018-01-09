@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">My First App</string>
+    <string name="Button_hold">HOLD</string>
+    <string name="ScoreKeep">Your score: Computer Score:</string>
+    <string name="Roll_button">ROLL</string>
+    <string name="Button_reset">RESET</string>
+    <string name="pressedButton">PRESS</string>
+</resources>
