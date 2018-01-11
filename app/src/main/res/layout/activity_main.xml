@@ -7,9 +7,9 @@
     tools:context="com.hallelujah.myfirstapp.MainActivity">
 
     <LinearLayout
-        android:layout_width="329dp"
-        android:layout_height="438dp"
-        android:layout_marginEnd="24dp"
+        android:layout_width="248dp"
+        android:layout_height="454dp"
+        android:layout_marginEnd="104dp"
         android:orientation="vertical"
         app:layout_constraintEnd_toEndOf="parent"
         tools:layout_editor_absoluteY="16dp">
@@ -17,21 +17,24 @@
         <TextView
             android:id="@+id/ScoreKeep"
             android:layout_width="258dp"
-            android:layout_height="30dp"
+            android:layout_height="53dp"
             android:text="@string/ScoreKeep"
             tools:layout_editor_absoluteX="74dp"
-            tools:layout_editor_absoluteY="113dp" />
+            tools:layout_editor_absoluteY="113dp"
+            android:textSize="17sp"/>
 
         <ImageView
+            android:id="@+id/pic"
             android:layout_width="145dp"
             android:layout_height="130dp"
+            android:layout_gravity="right"
             app:srcCompat="@drawable/dice1"
             tools:layout_editor_absoluteX="120dp"
             tools:layout_editor_absoluteY="156dp" />
 
         <LinearLayout
-            android:layout_width="452dp"
-            android:layout_height="75dp"
+            android:layout_width="250dp"
+            android:layout_height="wrap_content"
             android:orientation="horizontal"
             tools:layout_editor_absoluteX="41dp"
             tools:layout_editor_absoluteY="296dp">
